@@ -1,5 +1,4 @@
-title: [Stavros (steveiliop56)]
-description: [Welcome to my site!]
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: niklasbuschmann/contrast@v2.11
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
