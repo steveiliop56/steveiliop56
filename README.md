@@ -7,7 +7,7 @@
     <p>Sooo my name is Stavros! I am 14 years old and I live in Greece! I like learning new technologies and creating interesting and funny stuff! <b>(I also like to rickroll people 🤣)<b></p>
 </div>
 
-<hr style="height:1px;border-width:0;color:gray;background-color:gray">
+<h2></h2>
 
 <div align=center>
     <h2>I am intersted in 🤔</h3>
@@ -27,7 +27,7 @@
     <img src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg" title="Javascript" alt="Javascript" width=40 height=40/>&nbsp;
 </div>
 
-<hr style="height:1px;border-width:0;color:gray;background-color:gray">
+<h2></h2>
 
 <div align="center">
     <h2>My language status 💻</h3>
