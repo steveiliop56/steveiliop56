@@ -24,7 +24,7 @@
 <div align=center>
     <h3>I am currently learning 🧐</h3>
     <img src="https://github.com/devicons/devicon/raw/master/icons/react/react-original.svg" title="React" alt="React" width=40 height=40/>&nbsp;
-    <img src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg" title="Javascript" alt="Javascript" width=40 height=40/>&nbsp;
+    <img src="https://github.com/devicons/devicon/raw/master/icons/typescript/typescript-original.svg" title="Typescript" alt="Typescript" width=40 height=40/>&nbsp;
 </div>
 
 <hr style="height:1px;border-width:0;color:gray;background-color:gray">
