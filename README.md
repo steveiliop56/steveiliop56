@@ -1,7 +1,6 @@
 <div align="center">
     <h2>Hello! I'm Stavros 👋</h2>
 </div>
-<br>
 <div align="center">
     <h3>My language status 💻</h3>
     <a href="https://git.io/streak-stats">
