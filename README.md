@@ -3,10 +3,6 @@
 </div>
 <div align="center">
     <h3>My language status 💻</h3>
-    <a href="https://git.io/streak-stats">
-        <img src="https://streak-stats.demolab.com/?user=steveiliop56" alt="GitHub Streak">
-    </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=steveiliop56" alt="GitHub Streak" width=auto height=195px>
-    </a>
+    <img src="https://github-readme-stats.vercel.app/api?username=steveiliop56&show_icons=true&theme=transparent?hide_border=true" alt="GitHub Streak">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=transparent?hide_border=true" alt="Language status">
 </div>
