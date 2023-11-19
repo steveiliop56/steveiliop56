@@ -3,7 +3,7 @@
 </div>
 
 Hello, World! <br/>
-I am Stavros, a 14 year old developer experimenting with self hosting, raspberry pi and programming. I know python, typescript, c++, html, css and shellscript.
+I am Stavros, a 14 year old developer experimenting with self hosting, raspberry pi and programming.
 
 <div align="center">
     <h3>My programming status 💻</h3>
