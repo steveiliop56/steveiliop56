@@ -2,8 +2,10 @@
     <h2>Hello! I'm Stavros 👋</h2>
 </div>
 
-Hello, World! <br/>
-I am Stavros, a 14 year old developer experimenting with self hosting, raspberry pi and programming.
+<div align="center">
+    <p>Hello, World!</p>
+    <p>I am Stavros, a 14 year old developer experimenting with self hosting, raspberry pi and programming.</p>
+</div>
 
 <div align="center">
     <h3>My programming status 💻</h3>
