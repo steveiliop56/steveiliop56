@@ -10,15 +10,15 @@
     <title>Wait it works?</title>
     <link href="./style.css" rel="stylesheet" />
   </head>
-  <body
-    class="flex flex-col bg-neutral-900 justify-center items-center h-screen w-screen"
-  >
-    <div class="flex flex-col justify-center items-center">
-      <img
-        src="https://avatars.githubusercontent.com/u/106091011?v=4"
-        alt="Profile Picture"
-        class="size-48 rounded-full mt-5"
-      />
+  <body class="bg-neutral-900 flex-col items-center justify-center text-center">
+    <div class="mt-5 flex flex-col items-center justify-center">
+      <a href="https://github.com/steveiliop56">
+        <img
+          src="https://avatars.githubusercontent.com/u/106091011?v=4"
+          alt="Profile Picture"
+          class="size-48 rounded-full"
+        />
+      </a>
       <div class="text-center flex flex-row mt-5">
         <p class="text-neutral-500 text-2xl font-semibold">
           Hello, I am Stavros,&nbsp;
@@ -28,21 +28,17 @@
         >
           a software developer
         </p>
-        <p
-          class="transition-colors select-none text-neutral-900 hover:text-neutral-500 text-2xl font-semibold"
-        >
-          &nbsp;(kinda)
-        </p>
+        <p class="text-neutral-500 text-2xl font-semibold">&nbsp;(kinda)</p>
       </div>
     </div>
     <div
-      class="flex flex-col items-center justify-center lg:items-start lg:justify-normal lg:flex-row mt-20"
+      class="p-10 flex flex-col lg:flex-row items-center justify-center lg:items-start"
     >
       <div
-        class="max-w-xs flex flex-col items-center justify-center rounded-md bg-neutral-800"
+        class="p-5 m-5 max-w-xs flex flex-col justify-center items-cenrer text-center rounded-md bg-neutral-800"
       >
-        <p class="mx-5 mt-5 text-neutral-600 text-xl font-semibold">About me</p>
-        <p class="p-5 text-neutral-500 text-md">
+        <p class="text-neutral-600 text-xl font-semibold">About me</p>
+        <p class="mt-3 text-neutral-500 text-md">
           Sooo, I am Stavros (you probably noticed), a 14 year old software
           developer-sysadmin-i don't know what I am doing, based in Greece. I am
           mostly interested in self-hosting and in the raspberry pi world but
@@ -52,10 +48,10 @@
         </p>
       </div>
       <div
-        class="lg:ml-10 min-w-64 flex flex-col justify-center items-center bg-neutral-800 rounded-md mt-5 lg:mt-0"
+        class="p-5 m-5 w-64 flex flex-col justify-center items-center bg-neutral-800 rounded-md"
       >
-        <p class="p-5 text-neutral-600 text-xl font-semibold">My Skills</p>
-        <div>
+        <p class="text-neutral-600 text-xl font-semibold">My Skills</p>
+        <div class="mt-2">
           <div class="p-2 flex flex-row">
             <img
               class="size-6"
@@ -100,158 +96,67 @@
           </div>
         </div>
       </div>
-      <div
-        class="lg:ml-10 flex flex-col justify-center items-center bg-neutral-800 rounded-md mt-5 lg:mt-0"
-      >
-        <p class="p-5 text-neutral-600 text-xl font-semibold">My Projects</p>
-        <div class="flex flex-col items-center justify-center">
-          <div
-            class="mx-3 mb-0 lg:mb-3 flex flex-col justify-center items-center lg:flex-row"
-          >
-            <a href="https://github.com/steveiliop56/PyOs">
-              <div class="max-h-24 max-w-xs bg-neutral-700 flex rounded-md">
-                <div class="p-3 flex flex-col">
-                  <div class="flex flex-row">
-                    <p class="font-semibold text-neutral-500 text-md">PyOS</p>
-                    <div class="ml-40 flex flex-row">
-                      <svg
-                        class="size-5"
-                        viewBox="0 -10 511.98685 511"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0"
-                          fill="#ffc107"
-                        />
-                      </svg>
-                      <a
-                        href="https://github.com/steveiliop56/PyOS"
-                        class="ml-1 font-semibold text-neutral-500 text-base"
-                      >
-                        Star me!
-                      </a>
-                    </div>
-                  </div>
-                  <p class="mt-2 font-semibold text-neutral-500 text-base">
-                    An operating system better than windows! 😎
-                  </p>
-                </div>
+      <div class="p-2 m-5 flex flex-col bg-neutral-800 rounded-md text-center">
+        <p class="p-2 text-neutral-600 text-xl font-semibold">My Projects</p>
+        <div class="flex flex-col lg:flex-row">
+          <a href="https://github.com/steveiliop56/PyOS">
+            <div
+              class="m-2 p-2 h-24 w-72 flex flex-col rounded-md bg-neutral-700"
+            >
+              <div class="grid grid-col-2">
+                <p class="font-semibold text-neutral-500 text-md">PyOS</p>
+                <p class="mt-2 text-neutral-500 text-base">
+                  An operating system better than windows! 😎
+                </p>
               </div>
-            </a>
-            <a href="https://github.com/steveiliop56/pyducky">
-              <div
-                class="max-h-24 lg:ml-3 max-w-xs bg-neutral-700 flex rounded-md mt-3 lg:mt-0"
-              >
-                <div class="p-3 flex flex-col">
-                  <div class="flex flex-row">
-                    <p class="font-semibold text-neutral-500 text-md">
-                      PyDucky
-                    </p>
-                    <div class="ml-36 flex flex-row">
-                      <svg
-                        class="size-5"
-                        viewBox="0 -10 511.98685 511"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0"
-                          fill="#ffc107"
-                        />
-                      </svg>
-                      <a
-                        href="https://github.com/steveiliop56/pyducky"
-                        class="ml-1 font-semibold text-neutral-500 text-base"
-                      >
-                        Star me!
-                      </a>
-                    </div>
-                  </div>
-                  <p class="mt-2 font-semibold text-neutral-500 text-base">
-                    Flash the usb rubber ducky program with python!
-                  </p>
-                </div>
+            </div>
+          </a>
+          <a href="https://github.com/steveiliop56/pyducky">
+            <div
+              class="m-2 p-2 h-24 w-72 flex flex-col rounded-md bg-neutral-700"
+            >
+              <div class="grid grid-col-2">
+                <p class="font-semibold text-neutral-500 text-md">PyDucky</p>
+                <p class="mt-2 text-neutral-500 text-base">
+                  Flash the usb rubber ducky program with python!
+                </p>
               </div>
-            </a>
-          </div>
-          <div
-            class="mx-3 mb-3 flex flex-col justify-center items-center lg:flex-row"
-          >
-            <a href="https://github.com/steveiliop56/wio-ducky">
-              <div
-                class="max-h-24 max-w-xs bg-neutral-700 flex rounded-md mt-3 lg:mt-0"
-              >
-                <div class="p-3 flex flex-col">
-                  <div class="flex flex-row">
-                    <p class="font-semibold text-neutral-500 text-md">
-                      Wio Ducky
-                    </p>
-                    <div class="ml-32 flex flex-row">
-                      <svg
-                        class="size-5"
-                        viewBox="0 -10 511.98685 511"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0"
-                          fill="#ffc107"
-                        />
-                      </svg>
-                      <a
-                        href="https://github.com/steveiliop56/wio-ducky"
-                        class="ml-1 font-semibold text-neutral-500 text-base"
-                      >
-                        Star me!
-                      </a>
-                    </div>
-                  </div>
-                  <p class="mt-2 font-semibold text-neutral-500 text-base">
-                    Create a USB Rubber Ducky like device using a Wio Terminal.
-                  </p>
-                </div>
+            </div>
+          </a>
+        </div>
+        <div class="flex flex-col lg:flex-row">
+          <a href="https://github.com/steveiliop56/wio-ducky">
+            <div
+              class="m-2 p-2 h-24 w-72 flex flex-col rounded-md bg-neutral-700"
+            >
+              <div class="grid grid-col-2">
+                <p class="font-semibold text-neutral-500 text-md">WioDucky</p>
+                <p class="mt-2 text-neutral-500 text-base">
+                  Create a USB Rubber Ducky like device using a Wio Terminal.
+                </p>
               </div>
-            </a>
-            <a href="https://github.com/steveiliop56/google-assistant">
-              <div
-                class="max-h-24 lg:ml-3 max-w-xs bg-neutral-700 flex rounded-md mt-3 lg:mt-0"
-              >
-                <div class="p-3 flex flex-col">
-                  <div class="flex flex-row">
-                    <p class="font-semibold text-neutral-500 text-md">
-                      Google Assistant Voice
-                    </p>
-                    <div class="ml-8 flex flex-row">
-                      <svg
-                        class="size-5"
-                        viewBox="0 -10 511.98685 511"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0"
-                          fill="#ffc107"
-                        />
-                      </svg>
-                      <a
-                        href="https://github.com/steveiliop56/google-assistant"
-                        class="ml-1 font-semibold text-neutral-500 text-base"
-                      >
-                        Star me!
-                      </a>
-                    </div>
-                  </div>
-                  <p class="mt-2 font-semibold text-neutral-500 text-base">
-                    Google assistant on raspberry pi but it is voice
-                    activated!!!
-                  </p>
-                </div>
+            </div>
+          </a>
+          <a href="https://github.com/steveiliop56/google-assistant">
+            <div
+              class="m-2 p-2 h-24 w-72 flex flex-col rounded-md bg-neutral-700"
+            >
+              <div class="grid grid-col-2">
+                <p class="font-semibold text-neutral-500 text-md">
+                  Google Assistant Voice
+                </p>
+                <p class="mt-2 text-neutral-500 text-base">
+                  Bring google assistant hotword detection back!
+                </p>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </body>
-  <footer class="mt-10 flex flex-row text-center align-bottom">
-    <p class="text-neutral-500 text-lg font-medium">Made with pain</p>
+  <footer class="p-5 flex flex-row text-center items-center justify-center">
+    <p class="text-neutral-500 text-lg font-medium">Made with pain&nbsp;</p>
     <p>❤️</p>
   </footer>
 </html>
