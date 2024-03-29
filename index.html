@@ -9,144 +9,165 @@
     <title>Wait it works?</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-
   <body
-    class="bg-neutral-900 flex flex-col gap-16 p-10 text-center items-center justify-center"
+    class="flex flex-col bg-neutral-900 p-16 lg:p-8 items-center justify-center text-center gap-24 lg:gap-10"
   >
-    <div class="flex flex-col gap-5 items-center justify-center text-center">
+    <div class="flex flex-col gap-10 items-center justify-center text-center">
       <img
         src="https://avatars.githubusercontent.com/u/106091011?v=4"
         alt="Profile Picture"
-        class="size-40 rounded-full"
+        class="size-80 lg:size-48 rounded-full"
       />
-      <div class="flex flex-col lg:flex-row gap-1">
-        <p class="text-neutral-500 text-2xl font-semibold">
+      <div class="flex flex-col lg:flex-row gap-2">
+        <p class="text-6xl lg:text-2xl font-medium text-neutral-600">
           Hello, I am Stavros,
         </p>
         <p
-          class="text-2xl font-bold bg-gradient-to-r from-emerald-500 via-sky-600 to-pink-400 text-transparent bg-clip-text"
+          class="text-6xl lg:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 via-sky-600 to-pink-400"
         >
           a software developer
         </p>
-        <p class="text-neutral-500 text-2xl font-semibold">(kinda)</p>
+        <p class="text-6xl lg:text-2xl font-medium text-neutral-600">(kinda)</p>
       </div>
     </div>
 
-    <div class="flex flex-col lg:flex-row gap-5">
+    <div class="flex flex-col lg:flex-row gap-10 lg:gap-5">
       <div
-        class="flex flex-col gap-5 rounded-md bg-neutral-800 p-5 lg:max-w-96"
+        class="flex flex-col gap-8 lg:gap-3 text-center bg-neutral-800 p-10 lg:p-5 rounded-xl lg:rounded-md"
       >
-        <p class="text-neutral-600 text-xl font-semibold">About me</p>
-        <p class="text-neutral-500 text-md">
-          Sooo, I am Stavros (you probably noticed), a 14 year old software
-          developer-sysadmin-i don't know what I am doing, based in Greece. I am
-          mostly interested in self-hosting and in the raspberry pi world but
-          occasionally I might do a stupid project with an arduino. If you want
-          to contact me shoot me an
-          <a href="mailto: nopeyouwillnotemailme@example.com">email</a>.
+        <p class="text-5xl lg:text-2xl text-neutral-600 font-semibold">
+          About Me
+        </p>
+        <p
+          class="text-4xl lg:text-base text-neutral-500 font-medium lg:max-w-80"
+        >
+          Sooo, I am Stavros, a 14 year old software developer, sysadmin
+          (kinda), tinkerer based in Greece. I am mostly interested in Linux,
+          servers, self-hosting and (of course) raspberry pis but I may
+          occasionally do a funny project with an Arduino.
         </p>
       </div>
 
       <div
-        class="flex flex-col gap-5 rounded-md bg-neutral-800 p-5 lg:min-w-64"
+        class="flex flex-col gap-8 lg:gap-3 bg-neutral-800 text-center rounded-xl p-10 lg:p-5 lg:min-w-72 lg:rounded-md"
       >
-        <p class="align-top text-neutral-600 text-xl font-semibold">
+        <p class="text-5xl lg:text-2xl text-neutral-600 font-semibold">
           My Skills
         </p>
         <div
-          class="flex flex-col gap-2 items-center justify-center text-center"
+          class="flex flex-col gap-5 lg:gap-3 text-center items-center justify-center"
         >
-          <div class="flex flex-row gap-1">
+          <div class="flex flex-row gap-2 lg:gap-1">
             <img
-              class="size-6"
+              class="size-10 lg:size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
             />
-            <p class="text-neutral-500 text-md">Python</p>
+            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
+              Python
+            </p>
           </div>
-          <div class="flex flex-row gap-1">
+          <div class="flex flex-row gap-2 lg:gap-1">
             <img
-              class="size-6"
+              class="size-10 lg:size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
             />
-            <p class="text-neutral-500 text-md">Typescript</p>
+            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
+              Typescript
+            </p>
           </div>
-          <div class="flex flex-row gap-1">
+          <div class="flex flex-row gap-2 lg:gap-1">
             <img
-              class="size-6"
+              class="size-10 lg:size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
             />
-            <p class="text-neutral-500 text-md">Rust</p>
+            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
+              Rust
+            </p>
           </div>
-          <div class="flex flex-row gap-1">
+          <div class="flex flex-row gap-2 lg:gap-1">
             <img
-              class="size-6"
+              class="size-10 lg:size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
             />
-            <p class="text-neutral-500 text-md">Bash</p>
+            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
+              Bash
+            </p>
           </div>
-          <div class="flex flex-row gap-1">
+          <div class="flex flex-row gap-2 lg:gap-1">
             <img
-              class="size-6"
+              class="size-10 lg:size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg"
             />
-            <p class="text-neutral-500 text-md">Raspberry Pi</p>
+            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
+              Raspberry Pi
+            </p>
           </div>
-          <div class="flex flex-row gap-1">
+          <div class="flex flex-row gap-2 lg:gap-1">
             <img
-              class="size-6"
+              class="size-10 lg:size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"
             />
-            <p class="text-neutral-500 text-md">Arduino</p>
+            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
+              Arduino
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="flex flex-col gap-5 rounded-md bg-neutral-800 p-5">
-        <p class="align-top text-neutral-600 text-xl font-semibold">
+      <div
+        class="flex flex-col gap-8 lg:gap-5 bg-neutral-800 text-center rounded-xl p-10 lg:p-5 lg:rounded-md"
+      >
+        <p class="text-5xl lg:text-2xl text-neutral-600 font-semibold">
           My Projects
         </p>
-        <div class="flex flex-col gap-2">
-          <div class="flex flex-col gap-2 lg:flex-row items-between">
+        <div class="flex flex-col gap-5 lg:gap-3 lg:flex-row lg:items-between">
+          <div class="flex flex-col gap-5 lg:gap-3">
             <a href="https://github.com/steveiliop56/pyos">
               <div
-                class="flex flex-col gap-1 p-2 rounded-md bg-neutral-700 lg:max-w-72"
+                class="flex flex-col gap-2 p-5 lg:p-2 rounded-md bg-neutral-700 lg:max-w-64"
               >
-                <p class="font-semibold text-neutral-500 text-md">PyOS</p>
-                <p class="text-neutral-500 text-base">
+                <p class="font-semibold text-neutral-500 text-4xl lg:text-lg">
+                  PyOS
+                </p>
+                <p class="text-neutral-500 text-3xl lg:text-base">
                   An operating system better than windows! 😎
                 </p>
               </div>
             </a>
             <a href="https://github.com/steveiliop56/getashell">
               <div
-                class="flex flex-col gap-1 p-2 rounded-md bg-neutral-700 lg:max-w-72"
+                class="flex flex-col gap-2 p-5 lg:p-2 rounded-md bg-neutral-700 lg:max-w-64"
               >
-                <p class="font-semibold text-neutral-500 text-md">
+                <p class="font-semibold text-neutral-500 text-4xl lg:text-lg">
                   Get A Shell
                 </p>
-                <p class="text-neutral-500 text-base">
+                <p class="text-neutral-500 text-3xl lg:text-base">
                   Quickly spin up ssh shells from a dead simple ui 🐚
                 </p>
               </div>
             </a>
           </div>
-          <div class="flex flex-col gap-2 lg:flex-row items-between">
+          <div class="flex flex-col gap-5 lg:gap-3">
             <a href="https://github.com/steveiliop56/wio-ducky">
               <div
-                class="flex flex-col gap-1 p-2 rounded-md bg-neutral-700 lg:max-w-72"
+                class="flex flex-col gap-2 p-5 lg:p-2 rounded-md bg-neutral-700 lg:max-w-64"
               >
-                <p class="font-semibold text-neutral-500 text-md">Wio Ducky</p>
-                <p class="text-neutral-500 text-base">
+                <p class="font-semibold text-neutral-500 text-4xl lg:text-lg">
+                  Wio Ducky
+                </p>
+                <p class="text-neutral-500 text-3xl lg:text-base">
                   Create a USB Rubber Ducky like device using a Wio Terminal.
                 </p>
               </div>
             </a>
             <a href="https://github.com/steveiliop56/pyducky">
               <div
-                class="flex flex-col gap-1 p-2 rounded-md bg-neutral-700 lg:max-w-72"
+                class="flex flex-col gap-2 p-5 lg:p-2 rounded-md bg-neutral-700 lg:max-w-64"
               >
-                <p class="font-semibold text-neutral-500 text-md">PyDucky</p>
-                <p class="text-neutral-500 text-base">
+                <p class="font-semibold text-neutral-500 text-4xl lg:text-lg">
+                  PyDucky
+                </p>
+                <p class="text-neutral-500 text-3xl lg:text-base">
                   Flash the usb rubber ducky program with python!
                 </p>
               </div>
@@ -156,8 +177,10 @@
       </div>
     </div>
   </body>
-  <footer class="flex flex-row gap-1 text-center">
-    <p class="text-neutral-500 text-lg font-medium">Made with pain</p>
-    <p>❤️</p>
+  <footer class="flex flex-row text-center gap-2">
+    <p class="text-4xl lg:text-xl text-neutral-600 font-semibold">
+      Made with pain
+    </p>
+    <p class="text-4xl lg:text-xl">❤️</p>
   </footer>
 </html>
