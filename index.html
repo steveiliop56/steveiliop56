@@ -2,43 +2,42 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Stavros" />
     <meta name="description" content="Frontend nightmare" />
     <meta name="author" content="Stavros" />
-    <meta name="robots" content="noindex" />
-    <meta name="copyright" content="Copyright 2024 @steveiliop56" />
     <link rel="icon" type="image/x-icon" href="./logo.png" />
     <title>Wait it works?</title>
-    <link href="./style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-neutral-900 flex-col items-center justify-center text-center">
-    <div class="mt-5 flex flex-col items-center justify-center">
-      <a href="https://github.com/steveiliop56">
-        <img
-          src="https://avatars.githubusercontent.com/u/106091011?v=4"
-          alt="Profile Picture"
-          class="size-48 rounded-full"
-        />
-      </a>
-      <div class="text-center flex flex-row mt-5">
+
+  <body
+    class="bg-neutral-900 flex flex-col gap-16 p-10 text-center items-center justify-center"
+  >
+    <div class="flex flex-col gap-5 items-center justify-center text-center">
+      <img
+        src="https://avatars.githubusercontent.com/u/106091011?v=4"
+        alt="Profile Picture"
+        class="size-40 rounded-full"
+      />
+      <div class="flex flex-col lg:flex-row gap-1">
         <p class="text-neutral-500 text-2xl font-semibold">
-          Hello, I am Stavros,&nbsp;
+          Hello, I am Stavros,
         </p>
         <p
           class="text-2xl font-bold bg-gradient-to-r from-emerald-500 via-sky-600 to-pink-400 text-transparent bg-clip-text"
         >
           a software developer
         </p>
-        <p class="text-neutral-500 text-2xl font-semibold">&nbsp;(kinda)</p>
+        <p class="text-neutral-500 text-2xl font-semibold">(kinda)</p>
       </div>
     </div>
-    <div
-      class="p-10 flex flex-col lg:flex-row items-center justify-center lg:items-start"
-    >
+
+    <div class="flex flex-col lg:flex-row gap-5">
       <div
-        class="p-5 m-5 max-w-xs flex flex-col justify-center items-cenrer text-center rounded-md bg-neutral-800"
+        class="flex flex-col gap-5 rounded-md bg-neutral-800 p-5 lg:max-w-96"
       >
         <p class="text-neutral-600 text-xl font-semibold">About me</p>
-        <p class="mt-3 text-neutral-500 text-md">
+        <p class="text-neutral-500 text-md">
           Sooo, I am Stavros (you probably noticed), a 14 year old software
           developer-sysadmin-i don't know what I am doing, based in Greece. I am
           mostly interested in self-hosting and in the raspberry pi world but
@@ -47,116 +46,118 @@
           <a href="mailto: nopeyouwillnotemailme@example.com">email</a>.
         </p>
       </div>
+
       <div
-        class="p-5 m-5 w-64 flex flex-col justify-center items-center bg-neutral-800 rounded-md"
+        class="flex flex-col gap-5 rounded-md bg-neutral-800 p-5 lg:min-w-64"
       >
-        <p class="text-neutral-600 text-xl font-semibold">My Skills</p>
-        <div class="mt-2">
-          <div class="p-2 flex flex-row">
+        <p class="align-top text-neutral-600 text-xl font-semibold">
+          My Skills
+        </p>
+        <div
+          class="flex flex-col gap-2 items-center justify-center text-center"
+        >
+          <div class="flex flex-row gap-1">
             <img
               class="size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
             />
-            <p class="text-neutral-500 text-md">&nbsp;Python</p>
+            <p class="text-neutral-500 text-md">Python</p>
           </div>
-          <div class="p-2 flex flex-row">
+          <div class="flex flex-row gap-1">
             <img
               class="size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
             />
-            <p class="text-neutral-500 text-md">&nbsp;Typescript</p>
+            <p class="text-neutral-500 text-md">Typescript</p>
           </div>
-          <div class="p-2 flex flex-row">
+          <div class="flex flex-row gap-1">
             <img
               class="size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
             />
-            <p class="text-neutral-500 text-md">&nbsp;Rust</p>
+            <p class="text-neutral-500 text-md">Rust</p>
           </div>
-          <div class="p-2 flex flex-row">
+          <div class="flex flex-row gap-1">
             <img
               class="size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
             />
-            <p class="text-neutral-500 text-md">&nbsp;Bash</p>
+            <p class="text-neutral-500 text-md">Bash</p>
           </div>
-          <div class="p-2 flex flex-row">
+          <div class="flex flex-row gap-1">
             <img
               class="size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg"
             />
-            <p class="text-neutral-500 text-md">&nbsp;Raspberry Pi</p>
+            <p class="text-neutral-500 text-md">Raspberry Pi</p>
           </div>
-          <div class="p-2 mb-3 flex flex-row">
+          <div class="flex flex-row gap-1">
             <img
               class="size-6"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"
             />
-            <p class="text-neutral-500 text-md">&nbsp;Arduino</p>
+            <p class="text-neutral-500 text-md">Arduino</p>
           </div>
         </div>
       </div>
-      <div class="p-2 m-5 flex flex-col bg-neutral-800 rounded-md text-center">
-        <p class="p-2 text-neutral-600 text-xl font-semibold">My Projects</p>
-        <div class="flex flex-col lg:flex-row">
-          <a href="https://github.com/steveiliop56/PyOS">
-            <div
-              class="m-2 p-2 h-24 w-72 flex flex-col rounded-md bg-neutral-700"
-            >
-              <div class="grid grid-col-2">
+
+      <div class="flex flex-col gap-5 rounded-md bg-neutral-800 p-5">
+        <p class="align-top text-neutral-600 text-xl font-semibold">
+          My Projects
+        </p>
+        <div class="flex flex-col gap-2">
+          <div class="flex flex-col gap-2 lg:flex-row items-between">
+            <a href="https://github.com/steveiliop56/pyos">
+              <div
+                class="flex flex-col gap-1 p-2 rounded-md bg-neutral-700 lg:max-w-72"
+              >
                 <p class="font-semibold text-neutral-500 text-md">PyOS</p>
-                <p class="mt-2 text-neutral-500 text-base">
+                <p class="text-neutral-500 text-base">
                   An operating system better than windows! 😎
                 </p>
               </div>
-            </div>
-          </a>
-          <a href="https://github.com/steveiliop56/pyducky">
-            <div
-              class="m-2 p-2 h-24 w-72 flex flex-col rounded-md bg-neutral-700"
-            >
-              <div class="grid grid-col-2">
-                <p class="font-semibold text-neutral-500 text-md">PyDucky</p>
-                <p class="mt-2 text-neutral-500 text-base">
-                  Flash the usb rubber ducky program with python!
+            </a>
+            <a href="https://github.com/steveiliop56/getashell">
+              <div
+                class="flex flex-col gap-1 p-2 rounded-md bg-neutral-700 lg:max-w-72"
+              >
+                <p class="font-semibold text-neutral-500 text-md">
+                  Get A Shell
+                </p>
+                <p class="text-neutral-500 text-base">
+                  Quickly spin up ssh shells from a dead simple ui 🐚
                 </p>
               </div>
-            </div>
-          </a>
-        </div>
-        <div class="flex flex-col lg:flex-row">
-          <a href="https://github.com/steveiliop56/wio-ducky">
-            <div
-              class="m-2 p-2 h-24 w-72 flex flex-col rounded-md bg-neutral-700"
-            >
-              <div class="grid grid-col-2">
-                <p class="font-semibold text-neutral-500 text-md">WioDucky</p>
-                <p class="mt-2 text-neutral-500 text-base">
+            </a>
+          </div>
+          <div class="flex flex-col gap-2 lg:flex-row items-between">
+            <a href="https://github.com/steveiliop56/wio-ducky">
+              <div
+                class="flex flex-col gap-1 p-2 rounded-md bg-neutral-700 lg:max-w-72"
+              >
+                <p class="font-semibold text-neutral-500 text-md">Wio Ducky</p>
+                <p class="text-neutral-500 text-base">
                   Create a USB Rubber Ducky like device using a Wio Terminal.
                 </p>
               </div>
-            </div>
-          </a>
-          <a href="https://github.com/steveiliop56/google-assistant">
-            <div
-              class="m-2 p-2 h-24 w-72 flex flex-col rounded-md bg-neutral-700"
-            >
-              <div class="grid grid-col-2">
-                <p class="font-semibold text-neutral-500 text-md">
-                  Google Assistant Voice
-                </p>
-                <p class="mt-2 text-neutral-500 text-base">
-                  Bring google assistant hotword detection back!
+            </a>
+            <a href="https://github.com/steveiliop56/pyducky">
+              <div
+                class="flex flex-col gap-1 p-2 rounded-md bg-neutral-700 lg:max-w-72"
+              >
+                <p class="font-semibold text-neutral-500 text-md">PyDucky</p>
+                <p class="text-neutral-500 text-base">
+                  Flash the usb rubber ducky program with python!
                 </p>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </body>
-  <footer class="p-5 flex flex-row text-center items-center justify-center">
-    <p class="text-neutral-500 text-lg font-medium">Made with pain&nbsp;</p>
+  <footer class="flex flex-row gap-1 text-center">
+    <p class="text-neutral-500 text-lg font-medium">Made with pain</p>
     <p>❤️</p>
   </footer>
 </html>
