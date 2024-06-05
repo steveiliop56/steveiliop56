@@ -1,186 +1,245 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Stavros" />
-    <meta name="description" content="Frontend nightmare" />
-    <meta name="author" content="Stavros" />
-    <link rel="icon" type="image/x-icon" href="./logo.png" />
-    <title>Wait it works?</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <head>
+      <title>Wait it works?</title>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Just my tiny little website." />
+      <meta name="keywords" content="Shitty Code" />
+      <meta name="author" content="Stavros" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/x-icon" href="./logo.png" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+      />
+      <link rel="stylesheet" type="text/css" href="./styles.css" />
+    </head>
   </head>
   <body
-    class="flex flex-col bg-neutral-900 p-16 lg:p-8 items-center justify-center text-center gap-24 lg:gap-10"
+    class="bg-zinc-800 flex p-3 text-center items-center justify-center flex-col gap-8"
   >
-    <div class="flex flex-col gap-10 items-center justify-center text-center">
-      <img
-        src="https://avatars.githubusercontent.com/u/106091011?v=4"
-        alt="Profile Picture"
-        class="size-80 lg:size-48 rounded-full"
-      />
-      <div class="flex flex-col lg:flex-row gap-2">
-        <p class="text-6xl lg:text-2xl font-medium text-neutral-600">
-          Hello, I am Stavros,
+    <div>
+      <p class="text-lg text-zinc-200 font-semibold">Wait it works?</p>
+      <div class="mt-1 h-1 rounded-md bg-blue-700"></div>
+    </div>
+    <div>
+      <p class="text-md text-zinc-200 font-semibold">About me</p>
+      <div class="flex flex-col mt-3 items-center justify-center md:flex-row">
+        <p class="text-zinc-300 md:max-w-sm">
+          Sooo, I am Stavros, a 14 year old software developer based in Greece!
+          I just make stuff for fun with Raspberry Pis, Arduinos and React
+          because it is just cool!
         </p>
-        <p
-          class="text-6xl lg:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 via-sky-600 to-pink-400"
-        >
-          a software developer
-        </p>
-        <p class="text-6xl lg:text-2xl font-medium text-neutral-600">(kinda)</p>
+        <img
+          src="./logo.png"
+          alt="My awesome profile picture."
+          class="rounded-full size-32 mx-auto mt-5 md:mt-0 md:ml-5"
+        />
       </div>
     </div>
-
-    <div class="flex flex-col lg:flex-row gap-10 lg:gap-5">
-      <div
-        class="flex flex-col gap-8 lg:gap-3 text-center bg-neutral-800 p-10 lg:p-5 rounded-xl lg:rounded-md"
-      >
-        <p class="text-5xl lg:text-2xl text-neutral-600 font-semibold">
-          About Me
-        </p>
-        <p
-          class="text-4xl lg:text-base text-neutral-500 font-medium lg:max-w-80"
-        >
-          Sooo, I am Stavros, a 14 year old software developer, sysadmin
-          (kinda), tinkerer based in Greece. I am mostly interested in Linux,
-          servers, self-hosting and (of course) raspberry pis but I may
-          occasionally do a funny project with an Arduino.
-        </p>
-      </div>
-
-      <div
-        class="flex flex-col gap-8 lg:gap-3 bg-neutral-800 text-center rounded-xl p-10 lg:p-5 lg:min-w-72 lg:rounded-md"
-      >
-        <p class="text-5xl lg:text-2xl text-neutral-600 font-semibold">
-          My Skills
-        </p>
-        <div
-          class="flex flex-col gap-5 lg:gap-3 text-center items-center justify-center"
-        >
-          <div class="flex flex-row gap-2 lg:gap-1">
-            <img
-              class="size-10 lg:size-6"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-            />
-            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
-              Python
-            </p>
+    <div class="flex flex-col gap-8 lg:grid lg:grid-cols-3">
+      <div>
+        <p class="text-md text-zinc-200 font-semibold">I am interested in</p>
+        <div class="mt-3 lg:mt-5 flex flex-col gap-3">
+          <div class="flex gap-2 items-between items-center justify-center">
+            <i class="devicon-typescript-plain colored"></i>
+            <p class="text-zinc-200">Typescript</p>
           </div>
-          <div class="flex flex-row gap-2 lg:gap-1">
-            <img
-              class="size-10 lg:size-6"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-            />
-            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
-              Typescript
-            </p>
+          <div class="flex gap-2 items-between items-center justify-center">
+            <i class="devicon-react-plain colored"></i>
+            <p class="text-zinc-200">React</p>
           </div>
-          <div class="flex flex-row gap-2 lg:gap-1">
-            <img
-              class="size-10 lg:size-6"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
-            />
-            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
-              Rust
-            </p>
+          <div class="flex gap-2 items-between items-center justify-center">
+            <i class="devicon-python-plain colored"></i>
+            <p class="text-zinc-200">Python</p>
           </div>
-          <div class="flex flex-row gap-2 lg:gap-1">
-            <img
-              class="size-10 lg:size-6"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
-            />
-            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
-              Bash
-            </p>
+          <div class="flex gap-2 items-between items-center justify-center">
+            <i class="devicon-rust-plain colored"></i>
+            <p class="text-zinc-200">Rust</p>
           </div>
-          <div class="flex flex-row gap-2 lg:gap-1">
-            <img
-              class="size-10 lg:size-6"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg"
-            />
-            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
-              Raspberry Pi
-            </p>
+          <div class="flex gap-2 items-between items-center justify-center">
+            <i class="devicon-docker-plain colored"></i>
+            <p class="text-zinc-200">Docker</p>
           </div>
-          <div class="flex flex-row gap-2 lg:gap-1">
-            <img
-              class="size-10 lg:size-6"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"
-            />
-            <p class="text-neutral-500 text-4xl lg:text-base font-medium">
-              Arduino
-            </p>
+          <div class="flex gap-2 items-between items-center justify-center">
+            <i class="devicon-raspberrypi-plain colored"></i>
+            <p class="text-zinc-200">Raspberry Pi</p>
+          </div>
+          <div class="flex gap-2 items-between items-center justify-center">
+            <i class="devicon-arduino-plain colored"></i>
+            <p class="text-zinc-200">Arduino</p>
           </div>
         </div>
       </div>
+      <div class="lg:col-span-2 m-auto">
+        <p class="text-md text-zinc-200 font-semibold">My Projects</p>
+        <div class="mt-5 flex flex-col gap-5">
+          <div
+            class="border-2 border-solid border-zinc-700 p-3 rounded-md flex flex-row gap-5 relative"
+          >
+            <img
+              src="https://github.com/steveiliop56/getashell/blob/main/public/logo.png?raw=true"
+              alt="Get a shell"
+              class="size-12 my-auto"
+            />
+            <div class="text-start">
+              <p class="text-zinc-200 font-medium text-sm mb-2">Get A Shell</p>
+              <p class="mt-1 text-zinc-300 text-xs">
+                A simple web ui to quickly help you spin up docker based linux
+                servers which you can ssh into to just test a command or two.
+              </p>
+            </div>
 
-      <div
-        class="flex flex-col gap-8 lg:gap-5 bg-neutral-800 text-center rounded-xl p-10 lg:p-5 lg:rounded-md"
-      >
-        <p class="text-5xl lg:text-2xl text-neutral-600 font-semibold">
-          My Projects
-        </p>
-        <div class="flex flex-col gap-5 lg:gap-3 lg:flex-row lg:items-between">
-          <div class="flex flex-col gap-5 lg:gap-3">
-            <a href="https://github.com/steveiliop56/pyos">
-              <div
-                class="flex flex-col gap-2 p-5 lg:p-2 rounded-md bg-neutral-700 lg:max-w-64"
-              >
-                <p class="font-semibold text-neutral-500 text-4xl lg:text-lg">
-                  PyOS
-                </p>
-                <p class="text-neutral-500 text-3xl lg:text-base">
-                  An operating system better than windows! 😎
-                </p>
-              </div>
-            </a>
-            <a href="https://github.com/steveiliop56/getashell">
-              <div
-                class="flex flex-col gap-2 p-5 lg:p-2 rounded-md bg-neutral-700 lg:max-w-64"
-              >
-                <p class="font-semibold text-neutral-500 text-4xl lg:text-lg">
-                  Get A Shell
-                </p>
-                <p class="text-neutral-500 text-3xl lg:text-base">
-                  Quickly spin up ssh shells from a dead simple ui 🐚
-                </p>
-              </div>
+            <a
+              class="absolute top-3 right-2"
+              href="https://github.com/steveiliop56/getashell"
+              aria-label="Check it out on github!"
+            >
+              <i
+                class="devicon-github-original mr-2 text-zinc-200 hover:text-zinc-400"
+              ></i>
             </a>
           </div>
-          <div class="flex flex-col gap-5 lg:gap-3">
-            <a href="https://github.com/steveiliop56/wio-ducky">
-              <div
-                class="flex flex-col gap-2 p-5 lg:p-2 rounded-md bg-neutral-700 lg:max-w-64"
-              >
-                <p class="font-semibold text-neutral-500 text-4xl lg:text-lg">
-                  Wio Ducky
-                </p>
-                <p class="text-neutral-500 text-3xl lg:text-base">
-                  Create a USB Rubber Ducky like device using a Wio Terminal.
-                </p>
-              </div>
+          <div
+            class="border-2 border-solid border-zinc-700 p-3 rounded-md flex flex-row gap-5 relative"
+          >
+            <img
+              src="https://github.com/runtipi/runtipi/blob/develop/public/tipi.png?raw=true"
+              alt="Runtipi"
+              class="size-12 my-auto"
+            />
+
+            <div class="text-start">
+              <p class="text-zinc-200 font-medium text-sm mb-2">Runtipi</p>
+              <p class="mt-1 text-zinc-300 text-xs">
+                Runtipi is a homeserver for everyone! One command setup, one
+                click installs for your favorites self-hosted apps.
+              </p>
+            </div>
+
+            <a
+              class="absolute top-3 right-2"
+              href="https://github.com/runtipi/runtipi"
+              aria-label="Check it out on github!"
+            >
+              <i
+                class="devicon-github-original mr-2 text-zinc-200 hover:text-zinc-400"
+              ></i>
             </a>
-            <a href="https://github.com/steveiliop56/pyducky">
-              <div
-                class="flex flex-col gap-2 p-5 lg:p-2 rounded-md bg-neutral-700 lg:max-w-64"
-              >
-                <p class="font-semibold text-neutral-500 text-4xl lg:text-lg">
-                  PyDucky
-                </p>
-                <p class="text-neutral-500 text-3xl lg:text-base">
-                  Flash the usb rubber ducky program with python!
-                </p>
-              </div>
+          </div>
+          <div
+            class="border-2 border-solid border-zinc-700 p-3 rounded-md flex flex-row gap-5 relative"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+              alt="RyOS"
+              class="size-12 my-auto"
+            />
+            <div class="text-start">
+              <p class="text-zinc-200 font-medium text-sm mb-2">PyOS</p>
+              <p class="mt-1 text-zinc-300 text-xs">
+                A simple "operating system" written in python with a shell,
+                authentication, apps and a storage managment.
+              </p>
+            </div>
+
+            <a
+              class="absolute top-3 right-2"
+              href="https://github.com/steveiliop56/PyOS"
+              aria-label="Check it out on github!"
+            >
+              <i
+                class="devicon-github-original mr-2 text-zinc-200 hover:text-zinc-400"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="border-2 border-solid border-zinc-700 p-3 rounded-md flex flex-row gap-5 relative"
+          >
+            <img
+              src="https://pico.pinout.xyz/raspberry-pi-pico.svg"
+              alt="RyDucky"
+              class="size-12 my-auto"
+            />
+            <div class="text-start">
+              <p class="text-zinc-200 font-medium text-sm mb-2">PyDucky</p>
+              <p class="mt-1 text-zinc-300 text-xs">
+                A simple python script to help you flash the pico-ducky firmware
+                to your new raspberry pi pico.
+              </p>
+            </div>
+
+            <a
+              class="absolute top-3 right-2"
+              href="https://github.com/steveiliop56/pyducky"
+              aria-label="Check it out on github!"
+            >
+              <i
+                class="devicon-github-original mr-2 text-zinc-200 hover:text-zinc-400"
+              ></i>
             </a>
           </div>
         </div>
       </div>
     </div>
   </body>
-  <footer class="flex flex-row text-center gap-2">
-    <p class="text-4xl lg:text-xl text-neutral-600 font-semibold">
-      Made with pain
-    </p>
-    <p class="text-4xl lg:text-xl">❤️</p>
+  <footer class="flex flex-col gap-2 justify-center items-center">
+    <div class="flex flex-row gap-1">
+      <a
+        href="https://github.com/steveiliop56"
+        aria-label="Checkout my github!"
+      >
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          class="size-5 fill-zinc-200 hover:fill-zinc-400"
+        >
+          <g>
+            <path
+              style="fill-rule: evenodd; clip-rule: evenodd"
+              d="M12,0.296c-6.627,0-12,5.372-12,12c0,5.302,3.438,9.8,8.206,11.387   c0.6,0.111,0.82-0.26,0.82-0.577c0-0.286-0.011-1.231-0.016-2.234c-3.338,0.726-4.043-1.416-4.043-1.416   C4.421,18.069,3.635,17.7,3.635,17.7c-1.089-0.745,0.082-0.729,0.082-0.729c1.205,0.085,1.839,1.237,1.839,1.237   c1.07,1.834,2.807,1.304,3.492,0.997C9.156,18.429,9.467,17.9,9.81,17.6c-2.665-0.303-5.467-1.332-5.467-5.93   c0-1.31,0.469-2.381,1.237-3.221C5.455,8.146,5.044,6.926,5.696,5.273c0,0,1.008-0.322,3.301,1.23   C9.954,6.237,10.98,6.104,12,6.099c1.02,0.005,2.047,0.138,3.006,0.404c2.29-1.553,3.297-1.23,3.297-1.23   c0.653,1.653,0.242,2.873,0.118,3.176c0.769,0.84,1.235,1.911,1.235,3.221c0,4.609-2.807,5.624-5.479,5.921   c0.43,0.372,0.814,1.103,0.814,2.222c0,1.606-0.014,2.898-0.014,3.293c0,0.319,0.216,0.694,0.824,0.576   c4.766-1.589,8.2-6.085,8.2-11.385C24,5.669,18.627,0.296,12,0.296z"
+            />
+            <path
+              d="M4.545,17.526c-0.026,0.06-0.12,0.078-0.206,0.037c-0.087-0.039-0.136-0.121-0.108-0.18   c0.026-0.061,0.12-0.078,0.207-0.037C4.525,17.384,4.575,17.466,4.545,17.526L4.545,17.526z"
+            />
+            <path
+              d="M5.031,18.068c-0.057,0.053-0.169,0.028-0.245-0.055c-0.079-0.084-0.093-0.196-0.035-0.249   c0.059-0.053,0.167-0.028,0.246,0.056C5.076,17.903,5.091,18.014,5.031,18.068L5.031,18.068z"
+            />
+            <path
+              d="M5.504,18.759c-0.074,0.051-0.194,0.003-0.268-0.103c-0.074-0.107-0.074-0.235,0.002-0.286   c0.074-0.051,0.193-0.005,0.268,0.101C5.579,18.579,5.579,18.707,5.504,18.759L5.504,18.759z"
+            />
+            <path
+              d="M6.152,19.427c-0.066,0.073-0.206,0.053-0.308-0.046c-0.105-0.097-0.134-0.234-0.068-0.307   c0.067-0.073,0.208-0.052,0.311,0.046C6.191,19.217,6.222,19.355,6.152,19.427L6.152,19.427z"
+            />
+            <path
+              d="M7.047,19.814c-0.029,0.094-0.164,0.137-0.3,0.097C6.611,19.87,6.522,19.76,6.55,19.665   c0.028-0.095,0.164-0.139,0.301-0.096C6.986,19.609,7.075,19.719,7.047,19.814L7.047,19.814z"
+            />
+            <path
+              d="M8.029,19.886c0.003,0.099-0.112,0.181-0.255,0.183c-0.143,0.003-0.26-0.077-0.261-0.174c0-0.1,0.113-0.181,0.256-0.184   C7.912,19.708,8.029,19.788,8.029,19.886L8.029,19.886z"
+            />
+            <path
+              d="M8.943,19.731c0.017,0.096-0.082,0.196-0.224,0.222c-0.139,0.026-0.268-0.034-0.286-0.13   c-0.017-0.099,0.084-0.198,0.223-0.224C8.797,19.574,8.925,19.632,8.943,19.731L8.943,19.731z"
+            />
+          </g>
+        </svg>
+      </a>
+      <a href="mailto:steve@doesmycode.work" aria-label="Shoot me an email!">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          class="size-5 fill-zinc-200 hover:fill-zinc-400"
+        >
+          <path
+            d="M8.5,8.07c.16-.042,.325-.071,.498-.071l5.993-.005h.002c.18,0,.353,.032,.522,.077l-2.519,2.519c-.527,.527-1.448,.527-1.976,0l-2.521-2.521Zm5.91,3.935c-.641,.642-1.494,.995-2.401,.995s-1.761-.354-2.402-.995l-2.528-2.529c-.046,.168-.078,.341-.078,.523v2.999c0,.535,.208,1.037,.586,1.415s.88,.585,1.414,.585h0l5.993-.003c1.103,0,1.999-.898,1.999-2v-3c0-.172-.029-.339-.071-.501l-2.512,2.512Zm9.59-.005c0,6.617-5.383,12-12,12S0,18.617,0,12,5.383,0,12,0s12,5.383,12,12Zm-5.007-2.006c0-1.069-.417-2.074-1.173-2.83-.756-.754-1.76-1.17-2.827-1.17h-.004l-5.993,.005c-2.203,.002-3.996,1.796-3.996,4v2.999c0,1.069,.416,2.074,1.172,2.829s1.76,1.171,2.828,1.171h.003l5.993-.003c2.204-.001,3.997-1.796,3.997-4v-3Z"
+          />
+        </svg>
+      </a>
+    </div>
+    <p class="text-xs text-zinc-200">Copyright 2024 My code doesn't work</p>
   </footer>
 </html>
