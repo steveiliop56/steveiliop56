@@ -19,7 +19,7 @@
     </head>
   </head>
   <body
-    class="bg-zinc-800 flex p-3 text-center items-center justify-center flex-col gap-8"
+    class="bg-zinc-800 flex p-3 text-center items-center justify-between h-screen flex-col gap-8"
   >
     <div>
       <p class="text-lg text-zinc-200 font-semibold">Wait it works?</p>
@@ -40,46 +40,37 @@
         />
       </div>
     </div>
-    <div class="flex flex-col gap-8 lg:grid lg:grid-cols-3">
-      <div>
-        <p class="text-md text-zinc-200 font-semibold">I am interested in</p>
-        <div class="mt-3 lg:mt-5 flex flex-col gap-3">
-          <div class="flex gap-2 items-between items-center justify-center">
-            <i class="devicon-typescript-plain colored"></i>
-            <p class="text-zinc-200">Typescript</p>
-          </div>
-          <div class="flex gap-2 items-between items-center justify-center">
-            <i class="devicon-react-plain colored"></i>
-            <p class="text-zinc-200">React</p>
-          </div>
-          <div class="flex gap-2 items-between items-center justify-center">
-            <i class="devicon-python-plain colored"></i>
-            <p class="text-zinc-200">Python</p>
-          </div>
-          <div class="flex gap-2 items-between items-center justify-center">
-            <i class="devicon-rust-plain colored"></i>
-            <p class="text-zinc-200">Rust</p>
-          </div>
-          <div class="flex gap-2 items-between items-center justify-center">
-            <i class="devicon-docker-plain colored"></i>
-            <p class="text-zinc-200">Docker</p>
-          </div>
-          <div class="flex gap-2 items-between items-center justify-center">
-            <i class="devicon-raspberrypi-plain colored"></i>
-            <p class="text-zinc-200">Raspberry Pi</p>
-          </div>
-          <div class="flex gap-2 items-between items-center justify-center">
-            <i class="devicon-arduino-plain colored"></i>
-            <p class="text-zinc-200">Arduino</p>
-          </div>
+    <div
+      class="flex flex-col justify-between gap-8 lg:grid lg:grid-cols-3 text-md text-zinc-200 font-semibold"
+    >
+      <div class="flex flex-col items-center h-full">
+        <p>I am interested in</p>
+        <div
+          class="grid gap-x-2 w-fit h-full items-center justify-items-start mt-3 lg:mt-5 text-zinc-200"
+          style="grid-template-columns: auto auto"
+        >
+          <i class="devicon-typescript-plain colored"></i>
+          <p>Typescript</p>
+          <i class="devicon-react-plain colored"></i>
+          <p>React</p>
+          <i class="devicon-python-plain colored"></i>
+          <p>Python</p>
+          <i class="devicon-rust-plain colored"></i>
+          <p>Rust</p>
+          <i class="devicon-docker-plain colored"></i>
+          <p>Docker</p>
+          <i class="devicon-raspberrypi-plain colored"></i>
+          <p>Raspberry Pi</p>
+          <i class="devicon-arduino-plain colored"></i>
+          <p>Arduino</p>
         </div>
       </div>
       <div class="lg:col-span-2 m-auto">
-        <p class="text-md text-zinc-200 font-semibold">My Projects</p>
-        <div class="mt-5 flex flex-col gap-5">
-          <div
-            class="border-2 border-solid border-zinc-700 p-3 rounded-md flex flex-row gap-5 relative"
-          >
+        <p class="col-span-2">My Projects</p>
+        <div
+          class="mt-5 flex flex-col gap-5 *:border-2 *:border-solid *:border-zinc-700 *:p-3 *:rounded-md *:flex *:flex-row *:gap-5 *:relative"
+        >
+          <div>
             <img
               src="https://github.com/steveiliop56/getashell/blob/main/public/logo.png?raw=true"
               alt="Get a shell"
@@ -103,9 +94,7 @@
               ></i>
             </a>
           </div>
-          <div
-            class="border-2 border-solid border-zinc-700 p-3 rounded-md flex flex-row gap-5 relative"
-          >
+          <div>
             <img
               src="https://github.com/runtipi/runtipi/blob/develop/public/tipi.png?raw=true"
               alt="Runtipi"
@@ -130,9 +119,7 @@
               ></i>
             </a>
           </div>
-          <div
-            class="border-2 border-solid border-zinc-700 p-3 rounded-md flex flex-row gap-5 relative"
-          >
+          <div>
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
               alt="RyOS"
@@ -156,9 +143,7 @@
               ></i>
             </a>
           </div>
-          <div
-            class="border-2 border-solid border-zinc-700 p-3 rounded-md flex flex-row gap-5 relative"
-          >
+          <div>
             <img
               src="https://pico.pinout.xyz/raspberry-pi-pico.svg"
               alt="RyDucky"
