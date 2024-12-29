@@ -14,12 +14,6 @@
 </div>
 
 <div align="center">
-    <h3>Just started leetcode 🎯</h3>
-    <p><i>I don't understand anything...</i></p>
-    <img src="https://leetcode.card.workers.dev/steveiliop56?theme=auto&font=baloo&extension=null" alt="Leetcode Stats">
-</div>
-
-<div align="center">
     <h3>Website 🕸️</h3>
     <p>Check out my website <a href="https://doesmycode.work">here</a>.</p>
 </div>
