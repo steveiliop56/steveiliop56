@@ -1,5 +1,5 @@
 <div align="center">
-    <h2>Hello! I'm Stavros 👋</h2>
+    <h2>Yo! I'm Stavros 👋</h2>
 </div>
 
 <div align="center">
@@ -14,5 +14,5 @@
 
 <div align="center">
     <h3>Website</h3>
-    <p>I also have a <a href="https://doesmycode.work">website</a>.</p>
+    <p>I also have a cool <a href="https://doesmycode.work">website</a>.</p>
 </div>
