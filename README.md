@@ -3,7 +3,6 @@
 </div>
 
 <div align="center">
-    <p>Yooo</p>
     <p>Soo, I am Stavros, a 15 year old developer based in Greece. I am interested in web development, systems administration and homelabs!</p>
 </div>
 
