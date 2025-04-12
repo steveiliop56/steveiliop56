@@ -1,5 +1,5 @@
 <div align="center">
-    <h2>Yo! I'm Stavros 👋</h2>
+    <h2>Yo, I am Stavros 👋</h2>
 </div>
 
 <div align="center">
@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-    <h3>Status</h3>
+    <h3>Stats</h3>
     <img src="https://github-readme-stats.vercel.app/api?username=steveiliop56&show_icons=true&theme=transparent" alt="GitHub Streak" height="165">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=steveiliop56&layout=compact&theme=transparent" alt="Language status" height="165">
 </div>
